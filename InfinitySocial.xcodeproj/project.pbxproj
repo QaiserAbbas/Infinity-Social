@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5B99E8C421E25896001362F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8C321E25896001362F1 /* AppDelegate.swift */; };
-		5B99E8C621E25896001362F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8C521E25896001362F1 /* ViewController.swift */; };
 		5B99E8C921E25896001362F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B99E8C721E25896001362F1 /* Main.storyboard */; };
 		5B99E8CB21E25897001362F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B99E8CA21E25897001362F1 /* Assets.xcassets */; };
 		5B99E8CE21E25897001362F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B99E8CC21E25897001362F1 /* LaunchScreen.storyboard */; };
 		5B99E8D921E25897001362F1 /* InfinitySocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8D821E25897001362F1 /* InfinitySocialTests.swift */; };
 		5B99E8E421E25897001362F1 /* InfinitySocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8E321E25897001362F1 /* InfinitySocialUITests.swift */; };
+		5B99E8FA21E26754001362F1 /* ConfigFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8F921E26754001362F1 /* ConfigFile.swift */; };
+		5B99E8FC21E269D9001362F1 /* QAUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8FB21E269D9001362F1 /* QAUtility.swift */; };
+		5B99E8FE21E26D24001362F1 /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8FD21E26D24001362F1 /* FirebaseUtils.swift */; };
+		5B99E90021E26DA8001362F1 /* HelperFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99E8FF21E26DA8001362F1 /* HelperFile.swift */; };
 		83204BF9E6562744C9A8684C /* Pods_InfinitySocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94533DF45AB843DD2426D90 /* Pods_InfinitySocialUITests.framework */; };
 		9A81913FC6FAA9EE1DA6A72E /* Pods_InfinitySocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45523BF154DE7F9C21B512C9 /* Pods_InfinitySocialTests.framework */; };
 		B375D22A60BC8EA47AC2B0C6 /* Pods_InfinitySocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904D8F4CC2B11664A48A19D4 /* Pods_InfinitySocial.framework */; };
@@ -43,7 +46,6 @@
 		59F704399B4E69EFE3F75005 /* Pods-InfinitySocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitySocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitySocialUITests/Pods-InfinitySocialUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5B99E8C021E25896001362F1 /* InfinitySocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitySocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B99E8C321E25896001362F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B99E8C521E25896001362F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B99E8C821E25896001362F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B99E8CA21E25897001362F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B99E8CD21E25897001362F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,10 @@
 		5B99E8DF21E25897001362F1 /* InfinitySocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinitySocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B99E8E321E25897001362F1 /* InfinitySocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitySocialUITests.swift; sourceTree = "<group>"; };
 		5B99E8E521E25897001362F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B99E8F921E26754001362F1 /* ConfigFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigFile.swift; sourceTree = "<group>"; };
+		5B99E8FB21E269D9001362F1 /* QAUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAUtility.swift; sourceTree = "<group>"; };
+		5B99E8FD21E26D24001362F1 /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
+		5B99E8FF21E26DA8001362F1 /* HelperFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFile.swift; sourceTree = "<group>"; };
 		904D8F4CC2B11664A48A19D4 /* Pods_InfinitySocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinitySocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933D7AD282A8703D082CB492 /* Pods-InfinitySocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitySocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitySocial/Pods-InfinitySocial.release.xcconfig"; sourceTree = "<group>"; };
 		AC8F38FB7E3CFE31B6B90A4D /* Pods-InfinitySocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitySocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitySocial/Pods-InfinitySocial.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +120,12 @@
 		5B99E8C221E25896001362F1 /* InfinitySocial */ = {
 			isa = PBXGroup;
 			children = (
+				5B99E8F621E266ED001362F1 /* ConfigFile */,
+				5B99E8F421E266C8001362F1 /* HelperFiles */,
+				5B99E8F321E266AA001362F1 /* Models */,
+				5B99E8F221E26697001362F1 /* Utilities */,
+				5B99E8F521E266DA001362F1 /* ViewControllers */,
 				5B99E8C321E25896001362F1 /* AppDelegate.swift */,
-				5B99E8C521E25896001362F1 /* ViewController.swift */,
 				5B99E8C721E25896001362F1 /* Main.storyboard */,
 				5B99E8CA21E25897001362F1 /* Assets.xcassets */,
 				5B99E8CC21E25897001362F1 /* LaunchScreen.storyboard */,
@@ -140,6 +150,45 @@
 				5B99E8E521E25897001362F1 /* Info.plist */,
 			);
 			path = InfinitySocialUITests;
+			sourceTree = "<group>";
+		};
+		5B99E8F221E26697001362F1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5B99E8FB21E269D9001362F1 /* QAUtility.swift */,
+				5B99E8FD21E26D24001362F1 /* FirebaseUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5B99E8F321E266AA001362F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B99E8F421E266C8001362F1 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5B99E8FF21E26DA8001362F1 /* HelperFile.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		5B99E8F521E266DA001362F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5B99E8F621E266ED001362F1 /* ConfigFile */ = {
+			isa = PBXGroup;
+			children = (
+				5B99E8F921E26754001362F1 /* ConfigFile.swift */,
+			);
+			path = ConfigFile;
 			sourceTree = "<group>";
 		};
 		A2936A84BD20112BE3DA4F9F /* Frameworks */ = {
@@ -436,8 +485,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B99E8C621E25896001362F1 /* ViewController.swift in Sources */,
+				5B99E8FE21E26D24001362F1 /* FirebaseUtils.swift in Sources */,
 				5B99E8C421E25896001362F1 /* AppDelegate.swift in Sources */,
+				5B99E8FA21E26754001362F1 /* ConfigFile.swift in Sources */,
+				5B99E90021E26DA8001362F1 /* HelperFile.swift in Sources */,
+				5B99E8FC21E269D9001362F1 /* QAUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
