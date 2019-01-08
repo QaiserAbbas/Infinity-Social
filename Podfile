@@ -31,6 +31,9 @@ target 'InfinitySocial' do
   pod 'GoogleMaps'
   pod 'GooglePlacePicker'
   pod 'GooglePlaces'
+  
+  # Pods for Facebook
+  pod 'FacebookLogin'
 
   target 'InfinitySocialTests' do
     inherit! :search_paths

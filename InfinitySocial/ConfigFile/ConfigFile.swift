@@ -11,6 +11,9 @@ import UIKit
 
 // Configuration
 
+// App name
+let AppName = "Infinity Social"
+
 // To Enable or Disable Admob (true or false)
 let admobEnable = false
 // Admob App ID (Example: "ca-app-pub-3940256099942544~2934735716")

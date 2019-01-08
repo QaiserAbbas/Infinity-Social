@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>220205887212-c1a6e0qtlc45g5kakcdue4fda1gfmcul.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.220205887212-c1a6e0qtlc45g5kakcdue4fda1gfmcul</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAKqlwM-0vtzS9lRRZYsJXGGjcPGZ3ijnE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>220205887212</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.abbas.InfinitySocial</string>
+	<key>PROJECT_ID</key>
+	<string>infinity-social</string>
+	<key>STORAGE_BUCKET</key>
+	<string>infinity-social.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:220205887212:ios:f9ce7c9b3ecf5d2a</string>
+	<key>DATABASE_URL</key>
+	<string>https://infinity-social.firebaseio.com</string>
+</dict>
+</plist>

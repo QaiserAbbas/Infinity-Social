@@ -86,8 +86,6 @@ class QAUtility: NSObject {
         return emailTest.evaluate(with: testStr)
     }
     
-    
-    
     class func checkAlphaNumeric(string : String) -> Bool{
         let letters = CharacterSet.letters
         let digits = CharacterSet.decimalDigits
@@ -108,6 +106,14 @@ class QAUtility: NSObject {
             return true
         }
     }
+    
+    //MARK: Show pop up Alert
+    class func showAlertView(fromView: UIViewController, title:String, message:String){
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        fromView.present(alert, animated: true, completion: nil)
+    }
+
 }
 
 extension Date {
